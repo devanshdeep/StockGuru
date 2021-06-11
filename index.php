@@ -94,7 +94,7 @@
                 <form class="form-card" action="brain.php" method="post" enctype="multipart/form-data">
                     <h5 class="text-center mb-4">Select file</h5>
 
-                       <input type="file" name="file" id="file" />
+                       <input type="file" name="file" id="file" accept=".csv"  />
                             <input type="hidden" name="same_page" id="same_page" value="1">
                      <input type="submit" name="submit" value="Submit" />
 
